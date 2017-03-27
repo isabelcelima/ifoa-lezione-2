@@ -9,20 +9,19 @@ public class Primo {
 		String operazioni = "1 +   4";
 		System.out.println(operazioni);
 		 calcolaRisultato(operazioni);
-		 System.out.println("--------");
 		}
 		
 		{
 			String operazioni = "1 + 4";
 			System.out.println(operazioni);
 			 calcolaRisultato(operazioni);
-			 System.out.println("--------");
 		}
 	
 	}
 	
 	static void calcolaRisultato(String operazioni)
 	{
+		//ciao ciao
 		String operazioniCorretto = correggiOperazione(operazioni);
 		double amount = 0;
 		Scanner s = new Scanner(operazioniCorretto);
